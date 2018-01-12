@@ -1,0 +1,5 @@
+#+BEGIN_SRC emacs-lisp
+  (global-set-key "\C-h" 'delete-backward-char)
+  (global-set-key (kbd "M-h") 'backward-kill-word)
+  (global-set-key (kbd "C-m") 'newline-and-indent)
+#+END_SRC

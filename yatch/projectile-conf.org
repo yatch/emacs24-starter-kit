@@ -1,0 +1,5 @@
+#+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'projectile)
+
+  (projectile-global-mode)
+#+END_SRC
