@@ -1,0 +1,7 @@
+#+begin_src emacs-lisp
+  (starter-kit-load "eshell")
+  (starter-kit-load "js")
+  (starter-kit-load "misc-recommended")
+  (starter-kit-load "org")
+  (starter-kit-load "python")
+#+end_src
