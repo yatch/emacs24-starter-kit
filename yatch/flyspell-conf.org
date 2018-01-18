@@ -1,0 +1,9 @@
+
+#+BEGIN_SRC emacs-lisp
+  (dolist (hook '(text-mode-hook))
+    (add-hook hook (lambda () (flyspell-mode 1))))
+  (dolist (hook '(c-mode-hook))
+    (add-hook hook (lambda () (flyspell-prog-mode))))
+  (dolist (hook '(python-mode-hook))
+    (add-hook hook (lambda () (flyspell-prog-mode))))
+#+END_SRC
