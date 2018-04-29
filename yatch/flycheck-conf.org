@@ -1,0 +1,6 @@
+#+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'flycheck)
+  (add-hook 'python-mode-hook #'flycheck-mode)
+  (add-hook 'python-mode-hook (lambda () (setq-local flycheck-python-flake8-executable "python2")))
+  (add-hook 'python-mode-hook (lambda () (setq-local flycheck-python-pylint-executable "python2")))
+#+END_SRC
