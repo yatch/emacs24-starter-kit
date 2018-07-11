@@ -4,4 +4,5 @@
   (add-hook 'c-mode-common-hook 'ws-butler-mode)
   (add-hook 'python-mode-hook 'ws-butler-mode)
   (add-hook 'org-mode-hook 'ws-butler-mode)
+  (add-hook 'html-mode-hook 'ws-butler-mode)
 #+END_SRC
